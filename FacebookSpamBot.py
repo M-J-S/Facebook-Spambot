@@ -18,9 +18,6 @@ passwordElem = driver.find_element_by_id('pass')
 passwordElem.send_keys(passwordVariable)
 passwordElem.submit()
 
-
-
-
 #go to chat with chosen friend and enter this is a bot into message_body and hit enter
 driver.get('https://facebook.com/messages/' + friendVariable)
 
